@@ -1,0 +1,53 @@
+{
+    "name": "@maskito/angular-zoneless",
+    "version": "4.0.0",
+    "description": "The Angular-specific Maskito's library without Zone.js dependency.",
+    "keywords": [
+        "input",
+        "mask",
+        "inputmask",
+        "input-mask",
+        "text-mask",
+        "format",
+        "input-format",
+        "input-formatting",
+        "angular",
+        "zoneless"
+    ],
+    "homepage": "https://maskito.dev",
+    "bugs": "https://github.com/taiga-family/maskito/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/taiga-family/maskito.git"
+    },
+    "license": "Apache-2.0",
+    "author": {
+        "name": "Nikita Barsukov",
+        "email": "nikita.s.barsukov@gmail.com",
+        "url": "https://github.com/nsbarsukov"
+    },
+    "contributors": [
+        "Alex Inkin <alexander@inkin.ru> (https://twitter.com/waterplea)",
+        "Maksim Ivanov <splincodewd@yandex.ru>",
+        "Vladimir Potekhin <vladimir.potekh@gmail.com>",
+        "Nikita Barsukov <nikita.s.barsukov@gmail.com>"
+    ],
+    "dependencies": {
+        "tslib": "2.8.1"
+    },
+    "devDependencies": {
+        "@angular/core": "20.3.6",
+        "@angular/forms": "20.3.6"
+    },
+    "peerDependencies": {
+        "@angular/core": ">=20.3.6",
+        "@angular/forms": ">=20.3.6",
+        "@maskito/core": "^4.0.0"
+    },
+    "ng-update": {
+        "packageGroup": [
+            "@maskito/core",
+            "@maskito/kit"
+        ]
+    }
+}
